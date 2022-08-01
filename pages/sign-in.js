@@ -31,7 +31,7 @@ export default function SignIn() {
       <main className={styles.main}>
         <h1 className={styles.title}>Sign In</h1>
         <input
-          onChane={(e) => setEmail(e.target.value)}
+          onChange={(e) => setEmail(e.target.value)}
           style={{ margin: 10 }}
         />
         <button onClick={() => signIn()}>Sign In</button>
